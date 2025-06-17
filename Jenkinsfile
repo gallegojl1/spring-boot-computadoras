@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clonar el repositorio desde GitHub
-                git url: 'https://github.com/3ct-mx/spring-boot-computadoras.git', branch: 'main'
+                git url: 'https://github.com/gallegojl1/spring-boot-computadoras.git', branch: 'main'
             }
         }
         stage('Build') {
